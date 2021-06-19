@@ -16,6 +16,9 @@ function divide(a, b) {
   if (!a && !b) {
     return 0;
   }
+  if (a || b == 0) {
+    console.error('cant divide by 0');
+  }
   return a / b;
 }
 
