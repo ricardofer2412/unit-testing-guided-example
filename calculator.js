@@ -1,16 +1,28 @@
 function sum(a, b) {
-  return;
+  if (!a && !b) {
+    return 0;
+  }
+  return a + b;
 }
 
 function subtract(a, b) {
-  return;
+  if (!a && !b) {
+    return 0;
+  }
+  return a - b;
 }
 
 function divide(a, b) {
-  return;
+  if (!a && !b) {
+    return 0;
+  }
+  return a / b;
 }
 
 function multiply(a, b) {
+  if (!a && !b) {
+    return 0;
+  }
   return a * b;
 }
 
